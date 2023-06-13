@@ -5,3 +5,126 @@
     margin: 0rem;
     box-sizing: border-box;
 }
+
+.links{
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    color: #292934;
+}
+
+.momentLink{
+    font-weight: 900;
+}
+
+.abouutLink{
+    font-weight: 300;
+}
+
+span{
+    margin-left:0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 70%;
+}
+
+.Imagenes{
+    height: 7.5rem; 
+    margin-top: 1rem;
+    
+}
+
+figure{
+    height: 12rem;
+    width: 18%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    border-radius: 0.3rem;
+    border:0.1rem solid #E5E5E5;
+    cursor: pointer;
+}
+
+.imgDesc{
+    font-size: 0.7rem;
+    margin-top: 1rem;   
+}
+
+.contenedorImagenes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.contImgZoom{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(252, 248, 248, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    flex-direction: column;
+}
+
+.moverCont{
+    transform: translateX(0);
+}
+
+
+.contImgZoom img{
+    height: 70%;
+    display: block;
+}
+
+.parrafo{
+    position: absolute;
+    top: 2%;
+    left: 47.5%; 
+    font-size: 1.1rem;
+    color: #292934;
+}
+
+.izq{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    cursor: pointer;
+}
+
+.der{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    cursor: pointer;
+}
+
+.btnCerrar{
+    position: absolute;
+    bottom:2%;
+    left: 49.5%;
+    cursor: pointer;
+}
+
+figure:hover{
+    background-color: #E5E5E5;
+    border: 0.1rem solid rgb(136, 131, 131);
+}
