@@ -1,36 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
 
+/* Clases globales */
+
 *{
     padding: 0rem;
     margin: 0rem;
     box-sizing: border-box;
 }
-
-.links{
-    margin: 1rem 0rem 2rem 0rem;
-}
-
-a{
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.8rem;
-    color: #292934;
-}
-
-.momentLink{
-    font-weight: 900;
-}
-
-.abouutLink{
-    font-weight: 300;
-}
-
-span{
-    margin-left:0.5rem;
-    margin-right: 0.5rem;
-}
-
-
 
 main{
     display: flex;
@@ -41,10 +17,16 @@ section{
     width: 70%;
 }
 
-.Imagenes{
-    height: 7.5rem; 
-    margin-top: 1rem;
-    
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    color: #292934;
+}
+
+span{
+    margin-left:0.5rem;
+    margin-right: 0.5rem;
 }
 
 figure{
@@ -61,6 +43,26 @@ figure{
     cursor: pointer;
 }
 
+/* Clases */
+
+.links{
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+.momentLink{
+    font-weight: 900;
+}
+
+.aboutLink{
+    font-weight: 300;
+}
+
+.Imagenes{
+    height: 7.5rem; 
+    margin-top: 1rem;
+    
+}
+
 .imgDesc{
     font-size: 0.7rem;
     margin-top: 1rem;   
@@ -71,6 +73,7 @@ figure{
     justify-content: space-between;
     flex-wrap: wrap;   
 }
+
 .contImgZoom{
     position: fixed;
     height: 100%;
@@ -88,7 +91,6 @@ figure{
 .moverCont{
     transform: translateX(0);
 }
-
 
 .contImgZoom img{
     height: 70%;
@@ -124,7 +126,11 @@ figure{
     cursor: pointer;
 }
 
+/* Pseudoclases */
+
 figure:hover{
     background-color: #E5E5E5;
     border: 0.1rem solid rgb(136, 131, 131);
 }
+
+/* Fin del Css */
