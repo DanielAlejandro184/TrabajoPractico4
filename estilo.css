@@ -55,6 +55,7 @@ figure{
 
 .aboutLink{
     font-weight: 300;
+    color: black;
 }
 
 .Imagenes{
@@ -102,7 +103,7 @@ figure{
     top: 2%;
     left: 47.5%; 
     font-size: 1.1rem;
-    color: #292934;
+    color: #3D3D47;
 }
 
 .izq{
@@ -110,6 +111,7 @@ figure{
     top: 50%;
     left: 10%;
     cursor: pointer;
+    color: #808083;
 }
 
 .der{
@@ -117,6 +119,7 @@ figure{
     top: 50%;
     right: 10%;
     cursor: pointer;
+    color: #808083;
 }
 
 .btnCerrar{
@@ -124,6 +127,7 @@ figure{
     bottom:2%;
     left: 49.5%;
     cursor: pointer;
+    color: #808083;
 }
 
 /* Pseudoclases */
@@ -131,6 +135,14 @@ figure{
 figure:hover{
     background-color: #E5E5E5;
     border: 0.1rem solid rgb(136, 131, 131);
+}
+
+.aboutLink:hover{
+    color: #808083;
+}
+
+.izq:hover , .der:hover , .btnCerrar:hover{
+    color: #3D3D47;
 }
 
 /* Fin del Css */
